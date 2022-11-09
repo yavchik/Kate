@@ -1,0 +1,104 @@
+body {
+  background: #004ff9;
+  background: -webkit-linear-gradient(to bottom, #fff94c, #004ff9);
+  background: linear-gradient(to bottom, #fff94c, #004ff9);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.control {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 100px 0;
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.hero__title {
+  font-family: "Island Moments", cursive;
+  position: relative;
+  display: flex;
+  max-width: 100%;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+
+.hero__title::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+}
+
+.hero__title::before {
+  background-image: url(../img/love.png);
+}
+
+.hero__title::after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+}
+
+.hero__title::after {
+  background-image: url(../img/love.png);
+}
+
+.hero-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style-type: none;
+  padding-bottom: 200px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.image {
+  width: 379px;
+  height: 300px;
+  box-shadow: 8px 0px 19px 5px rgba(181, 23, 39, 0.81);
+}
+
+.img-title {
+  display: flex;
+  align-items: center;
+  font-family: "Caveat", cursive;
+  font-size: 23px;
+  color: blanchedalmond;
+  text-decoration: underline;
+}
+
+.img-title::after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+}
+
+.img-title::after {
+  background-image: url(../img/loveblack.png);
+}
